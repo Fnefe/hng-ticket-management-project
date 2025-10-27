@@ -37,3 +37,7 @@ export const deleteTicket = (id) => {
   const filtered = tickets.filter(t => t.id !== id);
   saveTickets(filtered);
 };
+
+export const logout = () => {
+  localStorage.removeItem('ticketapp_session');
+};

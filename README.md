@@ -1,16 +1,74 @@
-# React + Vite
+# Ticket management App (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full featured Ticket managemnt App built with **React.js**.
+This project is part of a framework challenge that involes recreating same app across three frameworks with i dentical layout and functionality.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
+The **Ticket Managenebt App** hlps users manage tickets efficiently.
+it includes a landing page, with a mordern wavy design, secure user authentication, an a dashboard for tracking and managing tickets.
 
-## React Compiler
+---
+## Features
+- Landing Page : clean layout with wavy SVG background.
+- **Authentication**: Register and Login system with validation.
+- **Dashboard** – Displays ticket analytics and user information  
+- **CRUD Operations** – Create, Read, Update, and Delete tickets  
+- **Persistent Data** – Tickets stored using local storage / API  
+- **Responsive Design** – Works across devices (desktop, tablet, mobile)  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React 18+**
+- **Vite**
+- **React Router**
+- **CSS / Tailwind CSS**
+- **Axios**
+- **Chart.js**
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/<your-username>/react-ticket-management.git
+cd react-ticket-management
+Install dependencies:
+
+bash
+Copy code
+npm install
+Start the development server:
+
+bash
+Copy code
+npm run dev
+Visit the app in your browser at:
+👉 http://localhost:5173
+
+---
+
+## Folder Structure
+graphql
+Copy code
+react-ticket-management/
+│
+├── src/
+│   ├── assets/          # Images, SVGs, icons
+│   ├── components/      # Reusable UI components
+│   ├── pages/           # App pages (Home, Login, Dashboard, etc.)
+│   ├── services/        # API calls and services
+│   ├── utils/           # Helper functions and utilities
+│   ├── App.jsx
+│   └── main.jsx
+│
+└── package.json
+
+## Deployment
+Deployed via Netlify or Vercel.
+🔗 Live Link: [Add your deployed link here]
